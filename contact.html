@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Aakash Babu Naventran</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="mesh" aria-hidden="true"><span></span></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor-glow" aria-hidden="true"></div>
+
+<header class="nav glass">
+  <a href="index.html" class="nav-logo">ABN<span class="dot">.</span></a>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html" data-page="index.html">Home</a>
+    <a href="skills.html" data-page="skills.html">Skills</a>
+    <a href="experience.html" data-page="experience.html">Experience</a>
+    <a href="projects.html" data-page="projects.html">Projects</a>
+    <a href="protosem.html" data-page="protosem.html">Protosem</a>
+    <a href="education.html" data-page="education.html">Education</a>
+    <a href="contact.html" data-page="contact.html">Contact</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+
+<main>
+  <section class="page-head container">
+    <p class="eyebrow glass"><span class="pulse"></span> LET'S TALK</p>
+    <h1 class="page-title reveal">Contact</h1>
+    <p class="page-lede reveal">
+      Open to internships and roles in industrial automation, robotics and smart
+      manufacturing. Send a message or reach out directly.
+    </p>
+  </section>
+
+  <section class="section container" style="padding-top:0">
+    <div class="contact-card glass reveal">
+      <form class="contact-form" id="contactForm">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field field-wide">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+
+      <div class="contact-links">
+        <a href="mailto:your.email@example.com">Email</a>
+        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="assets/resume.pdf">Download Resume</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Aakash Babu Naventran</span>
+    <span>Coimbatore, India</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
