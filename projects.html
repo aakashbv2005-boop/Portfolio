@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Aakash Babu Naventran</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="mesh" aria-hidden="true"><span></span></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor-glow" aria-hidden="true"></div>
+
+<header class="nav glass">
+  <a href="index.html" class="nav-logo">ABN<span class="dot">.</span></a>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html" data-page="index.html">Home</a>
+    <a href="skills.html" data-page="skills.html">Skills</a>
+    <a href="experience.html" data-page="experience.html">Experience</a>
+    <a href="projects.html" data-page="projects.html">Projects</a>
+    <a href="protosem.html" data-page="protosem.html">Protosem</a>
+    <a href="education.html" data-page="education.html">Education</a>
+    <a href="contact.html" data-page="contact.html">Contact</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+
+<main>
+  <section class="page-head container">
+    <p class="eyebrow glass"><span class="pulse"></span> BUILT THINGS</p>
+    <h1 class="page-title reveal">Projects</h1>
+    <p class="page-lede reveal">Academic and independent work spanning applied deep learning and embedded systems.</p>
+  </section>
+
+  <section class="section container" style="padding-top:0">
+    <div class="card-grid" style="grid-template-columns:repeat(2,1fr)">
+      <a href="project-1.html" class="project-card glass glass-hover reveal">
+        <div class="project-card-head">
+          <span class="project-index">P-01</span>
+          <span class="badge live">CURRENT</span>
+        </div>
+        <h3>Diabetic Retinopathy Classifier</h3>
+        <p>A deep learning model that grades diabetic retinopathy severity from retinal
+           fundus images, aimed at supporting earlier detection. Built model training,
+           evaluation and performance-analysis pipelines.</p>
+        <ul class="tag-list">
+          <li>TensorFlow</li><li>EfficientNet</li><li>Image Preprocessing</li>
+        </ul>
+      </a>
+
+      <a href="project-2.html" class="project-card glass glass-hover reveal">
+        <div class="project-card-head">
+          <span class="project-index">P-02</span>
+          <span class="badge">DEC 2023 – FEB 2024</span>
+        </div>
+        <h3>IoT Assistant for Elderly Care</h3>
+        <p>An IoT-based system integrating sensors, a microcontroller and actuators to
+           automate and monitor daily activities, improving safety, convenience and
+           real-time visibility into essential needs.</p>
+        <ul class="tag-list">
+          <li>Sensors</li><li>Microcontrollers</li><li>Circuit Design</li><li>Systems Integration</li>
+        </ul>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Aakash Babu Naventran</span>
+    <span>Coimbatore, India · <a href="contact.html">Get in touch</a></span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
